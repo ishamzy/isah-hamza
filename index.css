@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+}
+
+
+.my_image{
+    width: 22%;
+    height: 70%;
+    /* padding: 6px; */
+    border: 3px solid #414144;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#personal_info{
+    margin: 10px 10px 10px 70px;
+    width: 80%;
+}
+
+h2{
+    text-align: left;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+.paragraph{
+    display: block;
+    margin-bottom: 10px;
+    font-family: Helvetica,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+
+}
+#container{
+    margin: 5px 0;
+    
+}
+.image{
+    margin: 5px 75px 0;
+}
+
+
+/* for tablet */
+@media screen and (max-width:960px){
+    body{
+        background: #3344ee;
+    }
+    .my_image{
+        width: 46%;
+        border: 2px solid #363738;
+    }   
+  
+}
+
+/* for mobile */
+@media screen and (max-width:480px){
+    body{
+        background: #363742;
+    }
+   
+    .my_image{
+        width: 90%;
+        margin: 0 auto;
+        align-self: center;
+        margin-right: 50px;
+        
+    }
+    
+}
